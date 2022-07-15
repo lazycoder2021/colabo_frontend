@@ -1,6 +1,315 @@
-.App {
-  text-align: center;
+.banner{
+    border:1px solid black;
+    padding:20px 10px;
+    width:800px;
+    margin:200px auto 0px;
+    text-align:center;
+    border-radius:8px;
 }
+
+.releasenotes{
+    padding-top:10px;
+}
+
+.gap{
+    margin-bottom:20px;
+}
+
+.releaseHeader{
+    font-weight:100;
+}
+
+.stats-container li{
+    text-decoration:none;
+    list-style-type:none;
+    margin-left:20px;
+    margin-top:5px;
+    margin-bottom:10px;
+    font-weight:100;
+    font-size:18px;
+}
+
+.txtarea {
+    margin-bottom: 20px;
+}
+
+.banner h2 {
+    font-weight: 100;
+}
+
+    .heading{
+        font-size:70px;
+        letter-spacing:2.2px;
+    }
+
+    .subheading{
+        font-size:40px;
+    }
+
+    .banner p{
+        font-size:25px;
+        font-weight:100;
+        margin-top:20px;
+    }
+
+
+
+.user_data_table{
+    margin-top:70px;
+}
+
+.post-container{
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+}
+
+.postTitle{
+    margin-bottom:10px;
+    padding:5px;
+}
+
+.postBody{
+    padding:10px 0px;
+    margin-bottom:20px;
+}
+
+.save{
+    padding:10px 20px;
+    background-color:black;
+    color:white;
+    margin-top:10px;
+}
+
+select{
+    margin-bottom:10px;
+}
+
+select option{
+    padding:2px;
+}
+
+
+
+.App {
+    text-align: center;
+}
+
+.dashtitle{
+    margin-bottom:20px;
+}
+
+.approval_comments{
+    margin:5px 0px 10px;
+    padding:2px;
+}
+
+.logout{
+    cursor:pointer;
+}
+
+table{
+    border:2px solid black;
+    padding:10px;
+    border-radius:4px;
+    width:800px;
+    margin:auto;
+}
+
+
+
+thead{
+    background-color:black;
+    color:white;
+    padding:10px;
+}
+
+table td{
+    border:2px solid black;
+}
+
+table button{
+    line-height:20px;
+}
+
+.userdatacontainer{
+    width:700px;
+    height:auto;
+    //border:1px solid black;
+    margin:30px auto;
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.userdata {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+    margin-bottom: 50px;
+    //background-color:azure;
+}
+
+.userdata span{
+    display:block;
+}
+
+.databox{
+    //border:1px solid black;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:300px;
+}
+
+.databox p{
+    font-size:20px;
+}
+
+.databox span{
+    font-size:30px;
+    cursor:pointer;
+}
+
+.icon{
+    margin:30px;
+    font-size:30px;
+}
+
+.take_action{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+
+
+.stats-container {
+    width: 70%;
+    margin: 50px auto 20px;
+    height: 220vh;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.stats-container h2{
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.stats-container button{
+    margin:auto;
+    width:200px;
+    padding:8px 6px;
+    background-color:transparent;
+    color:black;
+    border-radius:4px;
+    cursor:pointer;
+    margin-bottom:50px;
+    transition:0.4s;
+}
+
+.stats-container button:hover{
+    color:white;
+    background-color:black;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+Link{
+    text-decoration:none;
+}
+
+.colabo{
+    text-decoration:none;
+    color:white;
+}
+
+.navbar{
+    width:100%; 
+    height:70px;
+    background:black;
+    color:white;
+    display:flex;
+    justify-content:space-between; 
+    align-items:center;
+}
+
+.logo{
+    margin-left:20px;
+    font-size:24px;
+    letter-spacing:2.2px;
+    cursor:pointer;
+}
+
+.buttons{
+    display:flex;
+    float:right;
+    margin-right:30px;
+}
+
+    .buttons p {
+        text-decoration:none;
+        padding:10px;
+        color:white;
+    }
+
+
+.formContainer {
+    height: 90vh;
+    margin: 0px;
+    //color: white;
+    //border:10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    border: 1px solid black;
+    padding: 10px;
+    height: 300px;
+    width: 500px;
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+    text-align: center;
+}
+
+    form h2 {
+        margin-bottom: 20px;
+        font-size: 34px;
+        font-weight: 100;
+    }
+
+    form input {
+        width: 100%;
+        padding: 3px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        border: 2px solid black;
+        border-radius: 4px;
+    }
+
+    form button {
+        float: left;
+        margin-top: 20px;
+        padding: 5px 15px;
+        font-size: 18px;
+        background: black;
+        color: white;
+        border-radius: 4px;
+    }
+
+
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +344,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media only screen and (max-width:480px){
+    form{
+        width:400px;
+    }
+
+    .stats-container{
+        height:auto;
+        overflow-x:auto;
+    }
+
+    .userdatacontainer{
+        width:500px;
+    }
+
+    .banner{
+        width:450px;
+    }
+
+    .heading {
+        font-size:50px;
+    }
+
+    .subheading{
+        font-size:30px;
+    }
+    
+
+    
+}
+
+.docWrapper{
+    border:2px solid black;
+    border-radius:4px;
 }
